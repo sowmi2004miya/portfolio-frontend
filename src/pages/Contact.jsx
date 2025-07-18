@@ -24,7 +24,7 @@ function Contact() {
 
   return (
     <div className="contact-page">
-      <h2>Contact Us</h2>
+      <h2>Contact Me</h2>
       {submitted && <p className="success-msg">Your message has been sent!</p>}
       <form onSubmit={handleSubmit} className="contact-form">
         <input type="text" name="name" placeholder="Name" value={form.name} onChange={handleChange} required />
